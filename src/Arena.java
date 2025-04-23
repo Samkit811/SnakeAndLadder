@@ -92,7 +92,7 @@ public class Arena {
     }
 
     private void updatePosition(int position, Player player) {
-        System.out.println("Position Update to:" + position + "for Player: " + player.getName());
+        System.out.println("Position Update to:" + position + " for Player: " + player.getName());
         player.setCurrentPositionOnBoard(position);
     }
 

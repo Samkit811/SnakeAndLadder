@@ -10,6 +10,8 @@ public class Dice {
     }
 
     public int diceThrow(){
-        return  this.random.nextInt(6 * this.noOfDice) + 1;
+        int diceValue = this.random.nextInt(6 * this.noOfDice) + 1;
+        System.out.println("Dice value for this round is: " + diceValue);
+        return  diceValue;
     }
 }
